@@ -1,0 +1,142 @@
+{
+  "workbench.colorTheme": "poimandres",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#506477"
+    // "editor.selectionHighlightBackground": "#506477"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "fish (2)": {
+      "path": "/opt/homebrew/bin/fish"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "workbench.iconTheme": "file-icons",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.lineHeight": 2,
+  "githubPullRequests.pullBranch": "never",
+  "editor.tabCompletion": "on",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "editor.snippetSuggestions": "top",
+  "remove-empty-lines.runOnSave": true,
+  "remove-empty-lines.allowedNumberOfEmptyLines": 1,
+  "html.format.wrapLineLength": 0,
+  "[html]": {
+    "remove-empty-lines.allowedNumberOfEmptyLines": 0,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1710241617748,
+  "php-cs-fixer.onsave": true,
+  "totalTypeScript.hiddenTips": [
+    "variable-type-annotation",
+    "passing-generics-to-types",
+    "interface-declaration",
+    "optional-object-property",
+    "basic-types",
+    "ts-object-type",
+    "typeof",
+    "literal-type",
+    "type-alias-declaration",
+    "union-type",
+    "in-operator-narrowing",
+    "typing-function-parameters",
+    "function-return-type",
+    "tuple-type",
+    "null-keyword",
+    "generic-slots-in-functions",
+    "as-const",
+    "keyof",
+    "array-type",
+    "as-assertion",
+    "record-utility-type",
+    "never-keyword",
+    "extract-utility-type",
+    "type-alias-with-generics",
+    "mapped-type",
+    "conditional-type",
+    "any-type",
+    "undefined-keyword",
+    "type-predicate",
+    "type-alias-with-multiple-generics",
+    "omit-utility-type",
+    "interface-with-generics",
+    "returntype-utility-type",
+    "as-const-on-object",
+    "exclude-utility-type",
+    "non-null-expression",
+    "nested-conditional-type",
+    "partial-utility-type",
+    "pick-utility-type"
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "files.associations": {
+    "*.svelte": "html",
+    "*.mdx": "markdown"
+  },
+  "stylelint.validate": ["css", "less", "postcss", "scss"],
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "files.exclude": {
+    "**/node_modules/*/**": true
+  },
+  "errorLens.excludeBySource": ["eslint(no-console)", "ts(2454)"],
+  "svelte.language-server.runtime": "/Users/mattburns/.nvm/versions/node/v16.18.1/bin/node",
+  "circleci.hostUrl": "",
+  "git.confirmSync": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workspaceSidebar.depth": 3,
+  "terminal.integrated.env.osx": {},
+  "console-ninja.featureSet": "Community",
+  "react-native-tools.showUserTips": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "right",
+  "explorer.compactFolders": false
+}
